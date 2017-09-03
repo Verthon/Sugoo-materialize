@@ -1,0 +1,47 @@
+.site-header{
+	background-image: url("img/smartphone.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	min-height: 600px;
+	background-position: 50% 50%;
+}
+.site-navigation{
+}
+.overlay{
+	width: 100%;
+  background-color: rgba(0,0,0,.55);
+  position: absolute;
+  height: 600px;
+}
+.flex-center{
+	display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 500px;
+}
+.logo{
+	font-weight: bold;
+}
+.hero-text{
+	position: relative;
+	z-index: 2;
+	padding: 30px;
+}
+
+/* Media queries */
+@media (max-width: 768px){
+	.site-header{
+		min-height: 300px;
+	}
+	.overlay{
+		height: 300px;
+		background-color: rgba(0,0,0,.65);
+	}
+	.flex-center{
+		height: 200px;
+	}
+	.hero-text{
+		padding: 0;
+	}
+}
