@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!--Import Materialize CSS-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <title>Materialize shop</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Site header -->
+	  <header class="shop-header row">
+      <nav class="site-navigation white">
+        <div class="nav-wrapper white">
+        <a href="#" data-activates="slide-out" class="button-collapse left grey-text text-darken-4"><i class="material-icons">menu</i></a>
+          <ul id="nav-mobile" class="right">
+            <li class="right">
+              <a href=""><i class="material-icons grey-text text-darken-4">shopping_cart</i></a>
+            </li>
+          </ul>
+          <a href="index.html" class="brand-logo center logo grey-text text-darken-4">SUGOO</a>         
+          <!--<ul id="nav-mobile" class="left hide-on-med-and-down">
+            <li><a href="#" class="grey-text text-darken-4">SZKŁA OCHRONNE</a></li>
+            <li><a href="#" class="grey-text text-darken-4">FOLIE OCHRONNE</a></li>
+            <li><a href="#" class="grey-text text-darken-4">AKCESORIA</a></li>
+          </ul>-->
+        </div>
+      </nav>
+    </header>
+    <main class="shop-content">
+      <!-- sidebar -->
+      <ul id="slide-out" class="grey lighten-4 side-nav fixed z-depth-3">
+      <li><h1 class="navbar-title center-align">PRODUKTY</h1></li>
+            <!-- Searchbar -->
+            <li><nav>
+                <div class="nav-wrapper z-depth-1 white">
+                    <form>
+                        <div class="input-field">
+                            <input id="search" type="search" placeholder="Szukaj" required>
+                            <label class="label-icon" for="search"><i class="material-icons grey-text text-darken-4">search</i></label>
+                            <i class="material-icons">close</i>
+                        </div>
+                    </form>
+                </div>
+            </nav></li>
+            <!-- End of searchbar -->       
+      <li><a href="shop.html" class="grey-text text-darken-3"><i class="material-icons grey-text text-darken-3">arrow_drop_down</i>
+      SZKŁA OCHRONNE</a></li>
+      <li><a href="shop.html" class="grey-text text-darken-3"><i class="material-icons grey-text text-darken-3">arrow_drop_down</i>FOLIE OCHRONNE</a></li>
+      <li><a href="shop.html" class="grey-text text-darken-3"><i class="material-icons grey-text text-darken-3">arrow_drop_down</i>AKCESORIA</a></li>
+    </ul>
+    <!-- Main Shop Content -->
+    <h1 class="flow-text">Shop Content Soon</h1>
+    </main>
+
+    <footer class="shop-footer">
+      
+    </footer>
+  <!--Import jQuery before materialize.js-->
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>    
+    <!--script-->
+    <script>  $('.button-collapse').sideNav({
+      menuWidth: 350, // Default is 300
+      edge: 'left', // Choose the horizontal origin
+      closeOnClick: true, // Closes side-nav on <a> clicks, useful for Angular/Meteor
+      draggable: true, // Choose whether you can drag to open on touch screens,
+      //onOpen: function(el) { /* Do Stuff* / }, // A function to be called when sideNav is opened
+      //onClose: function(el) { /* Do Stuff* / }, // A function to be called when sideNav is closed
+    }
+  );</script> 
+</body>
+</html>
