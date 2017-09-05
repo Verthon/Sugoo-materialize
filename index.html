@@ -14,56 +14,78 @@
 <body>
 <!-- site header -->
   <header class="site-header row z-depth-1">
+  <!-- menu -->
       <nav class=" black-text site-navigation">
         <div class="nav-wrapper white">
-        <a href="#" data-activates="mobile-demo" class="button-collapse right black-text"><i class="material-icons">menu</i></a>
-          <ul id="nav-mobile" class="left">
+        <a href="#" data-activates="site-navigation" class="button-collapse right black-text"><i class="material-icons">menu</i></a>
+        <a href="#" class="left hide-on-large-only"><i class="material-icons grey-text text-darken-4 cart-menu-btn">shopping_cart</i></a>        
+          <ul id="nav-mobile" class="right">
             <li class="right hide-on-med-and-down">
                 <div class="center row">
                     <div class="col s12 " >
                         <div class="row" id="topbarsearch">
                             <div class="input-field col s6 s12 black-text">
                                 <i class="black-text material-icons prefix">search</i>
-                                <input type="text" placeholder="search" id="autocomplete-input" class="autocomplete black-text" >
+                                <input type="text" placeholder="Szukaj" id="autocomplete-input" class="autocomplete black-text" >
                             </div>
                         </div>
                     </div>
                 </div>              
             </li>
           </ul>
-          <a href="#" class="brand-logo center logo black-text">SUGOO</a>         
-          <ul id="nav-mobile" class="right hide-on-med-and-down">
-            <li><a href="#" class="black-text">SZKŁA OCHRONNE</a></li>
-            <li><a href="#" class="black-text">FOLIE OCHRONNE</a></li>
-            <li><a href="#" class="black-text">AKCESORIA</a></li>
+          <!-- Desktop menu -->
+          <a href="index.html" class="brand-logo center logo black-text">SUGOO</a>         
+          <ul class="left hide-on-med-and-down">
+            <li><a href="shop.html" class="black-text">SZKŁA OCHRONNE</a></li>
+            <li><a href="shop.html" class="black-text">FOLIE OCHRONNE</a></li>
+            <li><a href="shop.html" class="black-text">AKCESORIA</a></li>
           </ul>
+          <!-- Mobile responsive menu -->
+          <ul id="site-navigation" class="side-nav">
+            <!-- Searchbar -->
+            <li><nav>
+                <div class="nav-wrapper white">
+                    <form>
+                        <div class="input-field">
+                            <input id="search" type="search" required>
+                            <label class="label-icon" for="search" placeholder="Search"><i class="material-icons grey-text text-darken-4">search</i></label>
+                            <i class="material-icons">close</i>
+                        </div>
+                    </form>
+                </div>
+            </nav></li>
+            <!-- End of searchbar -->      
+            <li><a href="shop.html" class="black-text">SZKŁA OCHRONNE</a></li>
+            <li><a href="shop.html" class="black-text">FOLIE OCHRONNE</a></li>
+            <li><a href="shop.html" class="black-text">AKCESORIA</a></li>
+          </ul>          
         </div>
       </nav>
       <div class="flex-center">
         <h1 class="center-align white-text hero-title">FOLIE I SZKŁA OCHRONNE</h1>
         <h2 class="center-align white-text hero-subtitle flow-text">Wysokiej jakości folie i szkła ochronne dla Twoich urządzeń</h2>     
-        <button class="btn waves-effect red lighten-2 center-align">Więcej</button>
+        <a href="shop.html"><button class="btn waves-effect red lighten-2 center-align">Więcej</button></a>
       </div> 
   </header>
 <!-- main content -->
   <main class="site-content row">
     <section class="section container center-align z-depth-2 col l4 s12">
       <h1 class="section-title">FOLIE I SZKŁA</h1>    
-      <p class="section-quote flow-text red-text lighten-2">przetestowane i zakwalifikowane do grupy materiałów profesjonalnych</p>
+      <p class="section-quote flow-text grey-text text-darken-2">przetestowane i zakwalifikowane do grupy materiałów profesjonalnych</p>
       <i class="material-icons medium black-text">tablet_android</i>
       <p class="flow-text">Obecnie w ofercie mamy materiały polskiego producenta firmy 3mk, zabezpieczenia te cieszą się niezwykła popularnością w całej Europie.</p>
       <button class="section-btn btn red lighten-2 waves-effect center-align">Więcej</button>
     </section>
         <section class="section container center center-align z-depth-2 col l4 s12">
       <h1 class="section-title">BEZPIECZEŃSTWO</h1>    
-      <p class="section-quote flow-text red-text lighten-2">Specjaliści od zabezpieczeń ekranów Twoich urządzeń mobilnych</p>
+      <p class="section-quote flow-text grey-text text-darken-2">Specjaliści od zabezpieczeń ekranów Twoich urządzeń mobilnych</p>
       <i class="material-icons medium green-text">security</i>
       <p class="flow-text">Światowej jakości folie i szkła, które Państwu oferujemy  wyprodukowane są z materiałów spełniających najwyższe standardy trwałości oraz ochrony.</p>
       <button class="section-btn btn red lighten-2 waves-effect center-align">Więcej</button>
     </section>
     <section class="section container center-align z-depth-2 col l4 s12">
       <h1 class="section-title">SZYBKA WYSYŁKA</h1>    
-      <p class="section-quote flow-text red-text lighten-2">Zamówienia dostarczane maksymalnie do 48 godzin</p>
+      <p class="section-quote flow-text grey-text text-darken-2">Zamówienia dostarczane maksymalnie do 48 godzin</p>
       <i class="material-icons medium black-text">local_shipping</i>
       <p class="flow-text">Światowej jakości folie i szkła, które Państwu oferujemy  wyprodukowane są z materiałów spełniających najwyższe standardy trwałości oraz ochrony.</p>
       <button class="section-btn btn red lighten-2 waves-effect center-align">Więcej</button>
