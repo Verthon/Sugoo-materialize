@@ -1,14 +1,10 @@
 .site-header{
-
 	/*background:
 	linear-gradient(0deg, rgba(52, 148, 230, 0.8), rgba(236, 110, 173, 0.8)70%),
 	url(img/smartphone.jpg);	 */
-	
-
 	background:
 	linear-gradient(0deg, rgba(52, 148, 230, 0.6), rgba(236, 110, 173, 0.6)70%),
-	url(img/smartphone.jpg);
-	
+	url(img/smartphone.jpg);	
 	background-repeat: no-repeat;
 	background-size: cover;
 	min-height: 600px;
@@ -52,6 +48,19 @@
 .section-btn{
 	margin-bottom: 20px;
 }
+/*---------------SHOP SECTION OF CSS------------------ */
+.shop-header, .shop-content, .shop-footer{
+	padding-left: 350px;
+}
+.navbar-title{
+	font-size: 2.0em;
+	font-weight: bold;
+}
+
+/*-------------Materialize rewrite--------- */
+.input-field label{
+	transform: translateY(0);
+}
 
 /* Media queries */
 @media (max-width: 768px){
@@ -68,4 +77,13 @@
 	.hero-subtitle{
 		font-size: 1.2rem;
 	}
+	/*---------------SHOP SECTION OF CSS------------------ */
+	.shop-header, .shop-content, .shop-footer{
+		padding-left: 0;
+	}
+	.cart-menu-btn{
+		margin: 0 18px;
+	}
+
+
 }
