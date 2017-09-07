@@ -10,35 +10,35 @@
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <title>Materialize shop</title>
   <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 </head>
-<body>
+<body class="grey-text text-darken-4">
 <!-- site header -->
   <header class="site-header row z-depth-1">
   <!-- menu -->
-      <nav class=" black-text site-navigation">
+      <nav class="grey-text text-darken-4 site-navigation">
         <div class="nav-wrapper white">
-        <a href="#" data-activates="site-navigation" class="button-collapse right black-text"><i class="material-icons">menu</i></a>
+        <a href="#" data-activates="site-navigation" class="button-collapse right grey-text text-darken-4"><i class="material-icons">menu</i></a>
         <a href="#" class="left hide-on-large-only"><i class="material-icons grey-text text-darken-4 cart-menu-btn">shopping_cart</i></a>        
           <ul id="nav-mobile" class="right">
-            <li class="right hide-on-med-and-down">
-                <div class="center row">
-                    <div class="col s12 " >
-                        <div class="row" id="topbarsearch">
-                            <div class="input-field col s6 s12 black-text">
-                                <i class="black-text material-icons prefix">search</i>
-                                <input type="text" placeholder="Szukaj" id="autocomplete-input" class="autocomplete black-text" >
-                            </div>
+            <li><nav>
+                <div class="nav-wrapper white hide-on-med-and-down">
+                    <form>                       
+                        <div class="input-field main-menu-search">
+                            <input id="search" type="search" placeholder="Szukaj" required>
+                            <label class="label-icon" for="search"><i class="material-icons grey-text text-darken-4">search</i></label>
+                            <i class="material-icons">close</i>
                         </div>
-                    </div>
-                </div>              
-            </li>
+                    </form>
+                </div>
+            </nav></li>                       
           </ul>
           <!-- Desktop menu -->
-          <a href="index.html" class="brand-logo center logo black-text">SUGOO</a>         
+          <a href="index.html" class="brand-logo center logo grey-text text-darken-4">SUGOO</a>         
           <ul class="left hide-on-med-and-down">
-            <li><a href="shop.html" class="black-text">SZKŁA OCHRONNE</a></li>
-            <li><a href="shop.html" class="black-text">FOLIE OCHRONNE</a></li>
-            <li><a href="shop.html" class="black-text">AKCESORIA</a></li>
+            <li><a href="shop.html" class="grey-text text-darken-4">SZKŁA OCHRONNE</a></li>
+            <li><a href="shop.html" class="grey-text text-darken-4">FOLIE OCHRONNE</a></li>
+            <li><a href="shop.html" class="grey-text text-darken-4">AKCESORIA</a></li>
           </ul>
           <!-- Mobile responsive menu -->
           <ul id="site-navigation" class="side-nav">
@@ -47,17 +47,17 @@
                 <div class="nav-wrapper white">
                     <form>
                         <div class="input-field">
-                            <input id="search" type="search" required>
-                            <label class="label-icon" for="search" placeholder="Search"><i class="material-icons grey-text text-darken-4">search</i></label>
+                            <input id="search" type="search" required placeholder="Szukaj">
+                            <label class="label-icon" for="search"><i class="material-icons grey-text text-darken-4">search</i></label>
                             <i class="material-icons">close</i>
                         </div>
                     </form>
                 </div>
             </nav></li>
             <!-- End of searchbar -->      
-            <li><a href="shop.html" class="black-text">SZKŁA OCHRONNE</a></li>
-            <li><a href="shop.html" class="black-text">FOLIE OCHRONNE</a></li>
-            <li><a href="shop.html" class="black-text">AKCESORIA</a></li>
+            <li><a href="shop.html" class="grey-text text-darken-4">SZKŁA OCHRONNE</a></li>
+            <li><a href="shop.html" class="grey-text text-darken-4">FOLIE OCHRONNE</a></li>
+            <li><a href="shop.html" class="grey-text text-darken-4">AKCESORIA</a></li>
           </ul>          
         </div>
       </nav>
@@ -68,41 +68,40 @@
       </div> 
   </header>
 <!-- main content -->
-  <main class="site-content row">
-    <section class="section container center-align z-depth-2 col l4 s12">
+  <main class="site-content container">
+    <section class="section center-align">
       <h1 class="section-title">FOLIE I SZKŁA</h1>    
       <p class="section-quote flow-text grey-text text-darken-2">przetestowane i zakwalifikowane do grupy materiałów profesjonalnych</p>
-      <i class="material-icons medium black-text">tablet_android</i>
-      <p class="flow-text">Obecnie w ofercie mamy materiały polskiego producenta firmy 3mk, zabezpieczenia te cieszą się niezwykła popularnością w całej Europie.</p>
+      <i class="material-icons medium grey-text text-darken-4">tablet_android</i>
+      <p class="flow-text section-text">Obecnie w ofercie mamy materiały polskiego producenta firmy 3mk, zabezpieczenia te cieszą się niezwykła popularnością w całej Europie.</p>
       <button class="section-btn btn red lighten-2 waves-effect center-align">Więcej</button>
     </section>
-        <section class="section container center center-align z-depth-2 col l4 s12">
+        <section class="section center center-align">
       <h1 class="section-title">BEZPIECZEŃSTWO</h1>    
       <p class="section-quote flow-text grey-text text-darken-2">Specjaliści od zabezpieczeń ekranów Twoich urządzeń mobilnych</p>
       <i class="material-icons medium green-text">security</i>
-      <p class="flow-text">Światowej jakości folie i szkła, które Państwu oferujemy  wyprodukowane są z materiałów spełniających najwyższe standardy trwałości oraz ochrony.</p>
+      <p class="flow-text section-text">Światowej jakości folie i szkła, które Państwu oferujemy  wyprodukowane są z materiałów spełniających najwyższe standardy trwałości oraz ochrony.</p>
       <button class="section-btn btn red lighten-2 waves-effect center-align">Więcej</button>
     </section>
-    <section class="section container center-align z-depth-2 col l4 s12">
+    <section class="section center-align">
       <h1 class="section-title">SZYBKA WYSYŁKA</h1>    
       <p class="section-quote flow-text grey-text text-darken-2">Zamówienia dostarczane maksymalnie do 48 godzin</p>
-      <i class="material-icons medium black-text">local_shipping</i>
-      <p class="flow-text">Światowej jakości folie i szkła, które Państwu oferujemy  wyprodukowane są z materiałów spełniających najwyższe standardy trwałości oraz ochrony.</p>
+      <i class="material-icons medium grey-text text-darken-4">local_shipping</i>
+      <p class="flow-text section-text">Światowej jakości folie i szkła, które Państwu oferujemy  wyprodukowane są z materiałów spełniających najwyższe standardy trwałości oraz ochrony.</p>
       <button class="section-btn btn red lighten-2 waves-effect center-align">Więcej</button>
-    </section>      
-
+    </section>    
   </main>
 <!-- site-footer -->
   <footer class="site-footer">
     <footer class="page-footer red lighten-5 z-depth-2">
         <div class="container">
             <div class="row">
-              <div class="col l6 s12">
+              <div class="col l4 s12 center-align">
                 <h5 class="grey-text text-darken-4">Sugoo</h5>
                 <p class="red-text text-lighten-1">Specjaliści od zabezpieczeń ekranów Twoich urządzeń mobilnych</p>
                 <p class="grey-text text-darken-4"></p>
               </div>
-              <div class="col l3 s12">
+              <div class="col l4 s12 center-align">
                 <h5 class="grey-text text-darken-4">Pomoc</h5>
                 <ul>
                   <li><a class="grey-text text-darken-4" href="#!">Szkła ochronne</a></li>
@@ -111,7 +110,7 @@
                   <li><a class="grey-text text-darken-4" href="#!">Regulamin</a></li>
                 </ul>
               </div>
-              <div class="col l3 s12">
+              <div class="col l4 s12 center-align">
                 <h5 class="grey-text text-darken-4">Kontakt</h5>
                 <ul>
                   <li><a class="grey-text text-darken-4" href="#!"><i class="material-icons">email</i>
