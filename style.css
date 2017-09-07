@@ -3,7 +3,7 @@
 	linear-gradient(0deg, rgba(52, 148, 230, 0.8), rgba(236, 110, 173, 0.8)70%),
 	url(img/smartphone.jpg);	 */
 	background:
-	linear-gradient(0deg, rgba(29, 67, 80, 0.85), rgba(164, 57, 49, 0.85)70%),
+	linear-gradient(0deg, rgba(29, 67, 80, 0.95), rgba(164, 57, 49, 0.85)70%),
 	url(img/smartphone.jpg);	
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -37,9 +37,11 @@
 }
 .hero-subtitle{
 	padding: 0;
-	position: relative;
-	font-size: 1.60rem;
-	margin-bottom: 50px;
+  position: relative;
+  font-size: 1.15rem;
+  margin-bottom: 50px;
+  font-family: 'Montserrat';
+  margin-top: 5px;
 }
 .site-content{
 	display: flex;
@@ -110,7 +112,10 @@
 		font-size: 2.7rem;
 	}
 	.hero-subtitle{
-		font-size: 1.2rem;
+    font-size: 1.05rem;
+    margin-top: 10px;
+    width: 80%;
+    margin-bottom: 40px;
 	}
 	.site-content{
 	flex-direction: column;
@@ -118,7 +123,7 @@
 	.section{
 		margin-bottom: 5px;
 		flex-basis: 300px;
-		padding: 0.15rem;
+		padding: 0.1em 1em 0.1em 1em;
 	}
 	/*---------------SHOP SECTION OF CSS------------------ */
 	.shop-header, .shop-content, .shop-footer{
