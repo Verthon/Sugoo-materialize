@@ -3,12 +3,16 @@
 	linear-gradient(0deg, rgba(52, 148, 230, 0.8), rgba(236, 110, 173, 0.8)70%),
 	url(img/smartphone.jpg);	 */
 	background:
-	linear-gradient(0deg, rgba(52, 148, 230, 0.6), rgba(236, 110, 173, 0.6)70%),
+	linear-gradient(0deg, rgba(29, 67, 80, 0.85), rgba(164, 57, 49, 0.85)70%),
 	url(img/smartphone.jpg);	
 	background-repeat: no-repeat;
 	background-size: cover;
 	min-height: 600px;
 	background-position: 50% 50%;
+}
+/*Landing Page Menus */
+.main-menu-search{
+	width: 400px;
 }
 .site-navigation{
 }
@@ -28,6 +32,8 @@
 	z-index: 2;
 	padding: 30px;
 	margin: 0;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 3.5em;
 }
 .hero-subtitle{
 	padding: 0;
@@ -35,15 +41,24 @@
 	font-size: 1.60rem;
 	margin-bottom: 50px;
 }
+.site-content{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
 .section-title{
 	font-weight: bold;
-	font-size: 2.0em;
+	font-size: 1.6em;
 }
 .section-quote{
-	font-size: 1.20em;
+	font-size: 1.0em;
+}
+.section-text{
+	font-size: 0.95em;
 }
 .section{
 	margin-bottom: 35px;
+	flex-basis: 400px;
 }
 .section-btn{
 	margin-bottom: 20px;
@@ -55,6 +70,26 @@
 .navbar-title{
 	font-size: 2.0em;
 	font-weight: bold;
+}
+.breadcrumb-container{
+	padding: 0;
+  margin: 0;
+  height: 15px;
+  line-height: 15px;
+}
+.breadcrumb-nav{
+	line-height: 15px;
+	margin-left: 30px;
+}
+.breadcrumb{
+	font-size: 0.9em;
+}
+.breadcrumb:before{
+	color: #616161;
+}
+.shop-heading{
+	padding: 0;
+	margin: 10px;
 }
 
 /*-------------Materialize rewrite--------- */
@@ -76,6 +111,14 @@
 	}
 	.hero-subtitle{
 		font-size: 1.2rem;
+	}
+	.site-content{
+	flex-direction: column;
+	}
+	.section{
+		margin-bottom: 5px;
+		flex-basis: 300px;
+		padding: 0.15rem;
 	}
 	/*---------------SHOP SECTION OF CSS------------------ */
 	.shop-header, .shop-content, .shop-footer{
