@@ -67,15 +67,19 @@
 }
 /*---------------SHOP SECTION OF CSS------------------ */
 .shop-header, .shop-content, .shop-footer{
-	padding-left: 350px;
+	padding-left: 300px;
 }
 .navbar-title{
-	font-size: 2.0em;
+
+	font-size: 2.3em;
 	font-weight: bold;
+}
+.navbar-title a{
+	color: #161616;	
 }
 .breadcrumb-container{
 	padding: 0;
-  margin: 0;
+  margin: 30px 0 30px 0;
   height: 15px;
   line-height: 15px;
 }
@@ -92,11 +96,26 @@
 .shop-heading{
 	padding: 0;
 	margin: 10px;
+	font-weight: bold;
+}
+.products-container{
+	margin: 0 20px 0 20px;
+}
+.card-price{
+	font-size: 23px;
+	font-weight: bold;
 }
 
 /*-------------Materialize rewrite--------- */
 .input-field label{
 	transform: translateY(0);
+}
+.card .card-image{
+	background:
+	linear-gradient(0deg, rgba(29, 67, 80, 0.95), rgba(164, 57, 49, 0.85)70%);
+}
+.card .card-content{
+	padding: 24px 24px 10px 24px;
 }
 
 /* Media queries */
@@ -131,6 +150,10 @@
 	}
 	.cart-menu-btn{
 		margin: 0 18px;
+	}
+	.shop-heading{
+		padding: 0;
+		margin: 20px;
 	}
 
 
