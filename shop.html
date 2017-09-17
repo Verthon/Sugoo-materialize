@@ -27,7 +27,7 @@
       </nav>
     </header>
     <!-- End of Site Header -->
-    <main class="shop-content">
+    <main class="shop-content white ">
       <!-- sidebar -->
       <ul id="slide-out" class="white side-nav fixed z-depth-3">
       <li><h1 class="navbar-title center-align grey-text text-darken-4"><a href="index.html">SUGOO</a></h1></li>
@@ -53,17 +53,16 @@
     <!-- Main Shop Content -->
     <nav class="z-depth-0 breadcrumb-container white">
     <div class="nav-wrapper breadcrumb-nav">
-          <a href="#!" class="breadcrumb grey-text text-darken-3">Sklep</a>
-          <a href="#!" class="breadcrumb grey-text text-darken-3">Folie</a>
-          <a href="#!" class="breadcrumb grey-text text-darken-3">Alcatel</a>
+          <a href="#!" class="breadcrumb grey-text text-darken-1">Sklep</a>
+          <a href="#!" class="breadcrumb grey-text text-darken-1">Folie</a>
       </div>
     </nav>
     <h1 class="flow-text center-align shop-heading">WYBRANA KATEGORIA</h1>
     <h2 class="flow-text center-align">Toolbar</h2>
     <!-- Products container -->
-    <section class="products-container row">
+    <section class="products-container row grey lighten-4">
       <div class="col s12 m6 l4">
-        <div class="card z-depth-3 grey lighten-3">
+        <a href="item.html"><div class="card z-depth-3 grey lighten-4">
             <div class="card-image">
               <img src="img/iphone6.jpeg">
               <span class="card-title">Card Title</span>
@@ -73,13 +72,13 @@
               <p class="card-price center">50zł</p>
             </div>
             <div class="card-action center-align">
-              <a href="#"><button class="btn red lighten-2">Dodaj do koszyka</button></a>
+              <button class="btn red lighten-2 center-align">Dodaj do koszyka</button>
             </div>
-          </div>
+          </div></a>
       </div>
       <!--end of card product -->
             <div class="col s12 m6 l4">
-        <div class="card z-depth-3 grey lighten-3">
+        <a href="item.html"><div class="card z-depth-3 grey lighten-4">
             <div class="card-image">
               <img src="img/tablet.jpg">
               <span class="card-title">Card Title</span>
@@ -89,13 +88,13 @@
               <p class="card-price center">93zł</p>
             </div>
             <div class="card-action center-align">
-              <a href="#"><button class="btn red lighten-2">Dodaj do koszyka</button></a>
+              <button class="btn red lighten-2">Dodaj do koszyka</button>
             </div>
-          </div>
+          </div></a>
       </div>
       <!--end of card product -->
             <div class="col s12 m6 l4">
-        <div class="card z-depth-3 grey lighten-3">
+        <a href="item.html"><div class="card z-depth-3 grey lighten-4">
             <div class="card-image">
               <img src="img/hand.jpg">
               <span class="card-title">Card Title</span>
@@ -105,9 +104,9 @@
               <p class="card-price center">16zł</p>
             </div>
             <div class="card-action center-align">
-              <a href="#"><button class="btn red lighten-2">Dodaj do koszyka</button></a>
+              <button class="btn red lighten-2">Dodaj do koszyka</button>
             </div>
-          </div>
+          </div></a>
       </div>
       <!--end of card product -->
     </section>
@@ -115,7 +114,7 @@
         <!-- Products container -->
     <section class="products-container row">
       <div class="col s12 m6 l4">
-        <div class="card z-depth-3 grey lighten-3">
+        <a href="item.html"><div class="card z-depth-3 grey lighten-4">
             <div class="card-image">
               <img src="img/tablet.jpg">
               <span class="card-title">Card Title</span>
@@ -125,13 +124,13 @@
               <p class="card-price center">36zł</p>
             </div>
             <div class="card-action center-align">
-              <a href="#"><button class="btn red lighten-2">Dodaj do koszyka</button></a>
+              <button class="btn red lighten-2">Dodaj do koszyka</button>
             </div>
-          </div>
+          </div></a>
       </div>
       <!--end of card product -->
             <div class="col s12 m6 l4">
-        <div class="card z-depth-3 grey lighten-3">
+        <a href="item.html"><div class="card z-depth-3 grey lighten-4">
             <div class="card-image">
               <img src="img/hand.jpg">
               <span class="card-title">Card Title</span>
@@ -141,13 +140,13 @@
               <p class="card-price center">40zł</p>
             </div>
             <div class="card-action center-align">
-              <a href="#"><button class="btn red lighten-2">Dodaj do koszyka</button></a>
+              <button class="btn red lighten-2">Dodaj do koszyka</button>
             </div>
-          </div>
+          </div></a>
       </div>
       <!--end of card product -->
             <div class="col s12 m6 l4">
-        <div class="card z-depth-3 grey lighten-3">
+        <a href="item.html"><div class="card z-depth-3 grey lighten-4">
             <div class="card-image">
               <img src="img/iphone6.jpeg">
               <span class="card-title">Card Title</span>
@@ -157,9 +156,9 @@
               <p class="card-price center">49zł</p>
             </div>
             <div class="card-action center-align">
-              <a href="#"><button class="btn red lighten-2">Dodaj do koszyka</button></a>
+              <button class="btn red lighten-2">Dodaj do koszyka</button>
             </div>
-          </div>
+          </div></a>
       </div>
       <!--end of card product -->
     </section>
@@ -173,14 +172,15 @@
   <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>    
     <!--script-->
-    <script>  $('.button-collapse').sideNav({
+    <script>  
+      $('.button-collapse').sideNav({
       menuWidth: 300, // Default is 300
       edge: 'left', // Choose the horizontal origin
       closeOnClick: true, // Closes side-nav on <a> clicks, useful for Angular/Meteor
       draggable: true, // Choose whether you can drag to open on touch screens,
       //onOpen: function(el) { /* Do Stuff* / }, // A function to be called when sideNav is opened
       //onClose: function(el) { /* Do Stuff* / }, // A function to be called when sideNav is closed
-    }
-  );</script> 
+    });
+</script> 
 </body>
 </html>
