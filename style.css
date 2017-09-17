@@ -47,6 +47,7 @@
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	flex-direction: row;
 }
 .section-title{
 	font-weight: bold;
@@ -62,15 +63,36 @@
 	margin-bottom: 35px;
 	flex-basis: 400px;
 }
+.promotion{
+	align-self: center;
+}
 .section-btn{
 	margin-bottom: 20px;
 }
 /*---------------SHOP SECTION OF CSS------------------ */
-.shop-header, .shop-content, .shop-footer{
+.shop-header, .shop-content, .shop-footer, .item-content{
 	padding-left: 300px;
 }
+.item-container{
+	margin-top: 120px;
+}
+.product-title{
+	font-size: 2em;
+	margin-top: 20px;
+	padding: 0;
+}
+.product-description{
+	font-size: 1.6em;
+	text-align: center;
+}
+.specs-list li{
+	padding: 5px;
+}
+.item-price{
+	font-size: 2.5em;
+	margin-top: 10px;
+}
 .navbar-title{
-
 	font-size: 2.3em;
 	font-weight: bold;
 }
@@ -91,7 +113,7 @@
 	font-size: 0.9em;
 }
 .breadcrumb:before{
-	color: #616161;
+	color: #757575;
 }
 .shop-heading{
 	padding: 0;
@@ -104,6 +126,9 @@
 .card-price{
 	font-size: 23px;
 	font-weight: bold;
+}
+a .card-content{
+	color: #212121;
 }
 
 /*-------------Materialize rewrite--------- */
@@ -145,7 +170,7 @@
 		padding: 0.1em 1em 0.1em 1em;
 	}
 	/*---------------SHOP SECTION OF CSS------------------ */
-	.shop-header, .shop-content, .shop-footer{
+	.shop-header, .shop-content, .shop-footer, .item-content{
 		padding-left: 0;
 	}
 	.cart-menu-btn{
@@ -154,6 +179,13 @@
 	.shop-heading{
 		padding: 0;
 		margin: 20px;
+	}
+	.item-container{
+		align-items: center;
+		margin-top: 0;
+	}
+	.product-image img{
+		margin: 0 auto;
 	}
 
 
